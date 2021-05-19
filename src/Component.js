@@ -3,6 +3,9 @@ module.exports = class Component {
     this.props = props;
   }
   render() {
-    document.getElementById('root').append('test');
+    const elem = document.createElement('h2');
+    elem.textContent = 'Hello Webpack';
+    elem.classList.add('heading');
+    document.getElementById('root').append(elem);
   }
 };
