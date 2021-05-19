@@ -5,3 +5,4 @@ require('./styles.css');
 const component = new Component();
 component.render();
 console.log(lodash.random(0,200));
+console.log('test');
