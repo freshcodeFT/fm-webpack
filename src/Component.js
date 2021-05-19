@@ -1,4 +1,4 @@
-module.exports = class Component {
+class Component {
   constructor(props) {
     this.props = props;
   }
@@ -9,3 +9,5 @@ module.exports = class Component {
     document.getElementById('root').append(elem);
   }
 };
+
+export default Component;
