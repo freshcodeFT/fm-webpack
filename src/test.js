@@ -29,5 +29,6 @@
   export const testValue = 'test';
   export default testFunction;
 */
-
+export const test = 1;
+export const text = 'some text';
 export default 5;
